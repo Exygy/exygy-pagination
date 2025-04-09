@@ -7,14 +7,12 @@ This repo does not reflect any actual Exygy feature development. It was created 
 This repo implements a directory of housing listings. Imagine that there was a request from product for a new pagination and filtering feature to be added to this existing simple list of listings - the feature has already been implemented by an imaginary developer.
 
 The functional AC for this feature is as follows:
-1.  When the application loads, the user should be on page 1, and the default number of items per page should be 2.
-2.  A user should be able to change the number of items per page. The update takes place when a user clicks the "Update" button.
-3. A user should be able to navigate through the pages by clicking either the arrows or the numbers themselves.
+1. When the application loads, the user should be on page 1, and the default number of items per page should be 2.
+2. A user should be able to change the number of items per page. The update takes place when a user clicks an "Update" button.
+3. A user should be able to navigate through the pages by clicking either a number representing the page, or an arrow in either direction.
 4. When a user updates the number of items per page, the selected page should reset to page 1.
 5. Only numbers greater than 0 are valid in the input for number of items per page.
-6. The number of pages should be dynamic based on the length of the list and the number of items per page.
-7. A user should be able to filter listings by selecting a unit type from a dropdown menu that should submit on selection.
-8. The unit type options should only reflect data in at least one listing, i.e. there should not be a "10 bedroom" option, if no listings have 10 bedrooms - so that no filter options return zero results.
+6. The number of pages should dynamically update based on the total number of items and the number of items per page.
 
 You're asked to test the feature as implemented so far. What, if any, issues do you notice? You can test the feature [here](https://exygy-pagination.netlify.app/).
 

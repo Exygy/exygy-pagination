@@ -100,16 +100,6 @@ export const Listings = () => {
               </Button>
             </div>
             {error && <div className={"error-message"}>{error}</div>}
-            <div className="update-items">
-              <select onChange={onUnitTypeChange} value={unitTypeFilter}>
-                <option value="">Unit Type</option>
-                {unitTypeOptions.map((option, index) => (
-                  <option value={option.value} key={index}>
-                    {option.label}
-                  </option>
-                ))}
-              </select>
-            </div>
           </div>
           <Pagination
             numSteps={numSteps}
