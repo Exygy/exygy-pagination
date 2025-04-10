@@ -28,15 +28,6 @@ export const InfoBlock = (props: InfoBlockProps) => {
     <div className="info-block">
       <div className={"title"}>{props.title}</div>
       <div className={"address"}>{getAddress(props.address)}</div>
-      {props.labels.length > 0 && (
-        <div className={"label-container"}>
-          {props.labels.map((label, index) => {
-            return <Label text={label} styleType={"listing"} key={index} />
-          })}
-        </div>
-      )}
-      <hr />
-      <UnitTable unitRows={props.unitRows} />
     </div>
   )
 }

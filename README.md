@@ -11,10 +11,9 @@ You're asked to test the feature as implemented so far. What, if any, issues do 
 The functional AC for this feature is as follows:
 1. When the application loads, the user should be on page 1, and the default number of items per page should be 2.
 2. A user should be able to change the number of items per page. The update takes place when a user clicks an "Update" button.
-3. A user should be able to navigate through the pages by clicking either a number representing the page, or an arrow in either direction.
-4. When a user updates the number of items per page, the selected page should reset to page 1.
-5. Only numbers greater than 0 are valid in the input for number of items per page.
-6. The number of pages should dynamically update based on the total number of items and the number of items per page.
+3. Only numbers greater than 0 are valid in the input for number of items per page. An error message should display if the input is not valid.
+4. A user should be able to navigate through the pages by clicking either a number representing the page, or an arrow in either direction.
+5. When a user updates the number of items per page, the selected page should reset to page 1.
 
 ## Available Scripts
 

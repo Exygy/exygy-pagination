@@ -128,6 +128,33 @@ export const Listings = () => {
             )
           })}
         </div>
+        <hr />
+          <div>
+            <ol>
+              <li>
+                When the application loads, the user should be on page 1, and
+                the default number of items per page should be 2.
+              </li>
+              <li>
+                A user should be able to change the number of items per page.
+                The update takes place when a user clicks an "Update" button.
+              </li>
+              <li>
+                Only numbers greater than 0 are valid in the input for number of
+                items per page. An error message should display if the input is
+                not valid.
+              </li>
+              <li>
+                A user should be able to navigate through the pages by clicking
+                either a number representing the page, or an arrow in either
+                direction.
+              </li>
+              <li>
+                When a user updates the number of items per page, the selected
+                page should reset to page 1.
+              </li>
+            </ol>
+          </div>
       </div>
     </div>
   )
