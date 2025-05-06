@@ -117,7 +117,9 @@ export const Listings = () => {
                   labels={listing.imageLabels}
                 />
                 <InfoBlock
-                  title={listing.name}
+                  title={`${index + 1 + (page - 1) * itemsPerPage}. ${
+                    listing.name
+                  }`}
                   address={listing.address}
                   tableHeader={listing.tableHeader}
                   tableSubheader={listing.tableSubheader}
