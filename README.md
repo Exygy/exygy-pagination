@@ -6,7 +6,7 @@ This repo does not reflect any actual Exygy feature development. It was created 
 
 This repo implements a directory of housing listings. Imagine that there was a request from product for a new pagination feature to be added to this existing simple list of listings - the feature has already been implemented by an imaginary developer.
 
-You're asked to test the feature as implemented so far. What, if any, issues do you notice? You can test the feature [here](https://exygy-pagination.netlify.app/).
+You're asked to test the feature as implemented so far. What, if any, issues do you notice? [You can test the feature here](https://exygy-pagination.netlify.app/).
 
 The functional AC for this feature is as follows:
 1. When the application loads, the user should be on page 1, and the default number of items per page should be 2.
