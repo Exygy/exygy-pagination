@@ -4,7 +4,7 @@
 
 This repo does not reflect any actual Exygy feature development. It was created only for the purpose of this assessment, and made intentionally buggy.
 
-This repo implements a directory of housing listings. Imagine that there was a request from product for a new pagination and filtering feature to be added to this existing simple list of listings - the feature has already been implemented by an imaginary developer.
+This repo implements a directory of housing listings. Imagine that there was a request from product for a new pagination feature to be added to this existing simple list of listings - the feature has already been implemented by an imaginary developer.
 
 You're asked to test the feature as implemented so far. What, if any, issues do you notice? You can test the feature [here](https://exygy-pagination.netlify.app/).
 
